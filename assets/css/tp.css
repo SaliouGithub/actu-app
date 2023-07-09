@@ -1,0 +1,100 @@
+/* Styles pour l'entête */
+#entete {
+	font-size: 3em;
+	color: white;
+	background-color: black;
+	font-family: agency FB;
+	padding: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+  }
+  
+/* Styles pour le menu */
+#menu {
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li {
+	display: inline;
+	margin-right: 10px;
+	border: 1px solid transparent;
+}
+
+#menu ul li {
+	display: inline;
+	margin-right: 10px;
+	/* border-left: 1px solid #fff; */
+	height: 100%;
+}
+
+/* #menu ul li:last-child {
+	border-right: 1px solid #fff;
+	height: 100%;
+} */
+
+#menu .lien {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+#menu .lien:hover {
+	/* border: 1px solid white; */
+	margin: 10px;
+	background:rgb(247, 244, 244);	
+	color: rgb(12, 12, 12);
+} 
+
+
+  
+  /* Styles pour le corps */
+#corps {
+	margin: 20px;
+  }
+  
+#corps h1 {
+	color: #333;
+  }
+
+#corps p,
+#corps h3 {
+	color: black;
+  }
+
+  
+  /* Styles pour les blocs du corps */
+#corps .block {
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+  }
+
+#corps a {
+	text-decoration: none;
+  }
+  
+#corps .block:hover {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Styles pour le pied de page */
+#pied {
+	background-color: black;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+  }
+  
