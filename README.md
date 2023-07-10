@@ -1,1 +1,1 @@
-# actu-app
+# actu
